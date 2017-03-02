@@ -1,0 +1,8 @@
+* Intro to html and css
+** Links
+*** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][A Complete Guide to Flexboard]]
+*** [[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference][CSS Documentation]]
+** Verifying html and css
+*** [[http://validator.w3.org/#validate_by_input][To verify html]]
+*** [[https://jigsaw.w3.org/css-validator/#validate_by_input][To verify css]]
+*** 

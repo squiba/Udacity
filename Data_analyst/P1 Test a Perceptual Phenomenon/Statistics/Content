@@ -1,0 +1,59 @@
+Concepts
+
+This page contains a list of concepts covered in the statistics course and what portion of the course you should watch to learn each concept. You should use the following exercises to keep track of which concepts you need to learn more about. This page can help you remember which parts of the course you should take to do so. Some topics also contain alternative resources you can use in addition to or instead of the course videos if you prefer.
+
+The placement advisor covers most, but not all, of the topics covered in the Statistics course, focusing on the topics you need most for the rest of the Nanodegree curriculum. However, if there are any topics on this list you are not familiar with, you are encouraged to watch the videos associated with them.
+
+    Lesson 1
+        Constructs and operational definitions: Start at the beginning of Lesson 1 and continue until you reach the video "Data".
+        Interpreting scatter plots: Start at the video "Data" and continue until you reach the video "Benefits of Surveys".
+        How to make a scatter plot in Google spreadsheets: Watch the video "Katie's Hand".
+            See also these instructions.
+        Correlation vs. causation: Start at the video "Visualize Relationship" and continue until you reach the video "Benefits of Surveys".
+        Different types of studies: Start at the video "Causal Inference" and continue to the end of Lesson 1.
+        Terminology (population, sample, parameter, and statistic): Watch the video "Same Scores" (solution).
+    Lesson 2
+        Absolute and relative frequency, proportions, and percentages: Start at the beginning of Lesson 2 and continue until you reach the video "Number of Rows".
+            See also this summary.
+        Histograms and binning: Start at the video "Number of Rows" and continue to the end of Lesson 2.
+    Google Spreadsheet Tutorial Lesson
+        How to perform calculations in Google spreadsheets: Watch the entire lesson.
+            See also this tutorial.
+    Lesson 3
+        Mode: Start at the beginning of Lesson 3 and continue until you reach the video "Find the Mean".
+        Mean: Start at the video "Find the Mean" and continue until you reach the video "UNC".
+        Median: Start at the video "UNC" and continue to the end of Lesson 3.
+        Different shapes of distributions - normal, uniform, bimodal, and skewed: Covered throughout Lesson 3.
+            See also this page. (A normal distribution is a type of bell-shaped distribution.)
+    Lesson 4
+        Range: Start at the beginning of Lesson 4 and continue until you reach the video "Mark Z the Outlier".
+        Inter-Quartile Range and Boxplots: Start at the video "Mark Z the Outlier" and continue until you reach the video "Problem with IQR".
+        Variance and standard deviation: Start at the video "Problem with IQR" and continue to the end of Lesson 4.
+        Bessel's correction: Start at the video "Sample SD" and continue to the end of Lesson 4.
+            See also this article.
+        Normal distribution 68-95 rule: Watch the video "Point of SD".
+    Lesson 5
+        z-scores: Watch the entire lesson.
+    Lesson 6
+        Using the z-score table: Watch the entire lesson.
+    Lesson 7
+        Sampling distributions and the Central Limit Theorem: Watch the entire lesson.
+    Lesson 8
+        Confidence intervals: Watch the entire lesson.
+    Lesson 9
+        alpha levels and critical regions: Start at the beginning of Lesson 9 and continue until you reach the video "Hypotheses".
+        Null and alternative hypotheses and when to reject the null: Start at the video "Hypotheses" and continue until you reach the video "Decision Errors".
+        Statistical decision errors: Start at the video "Decision Errors" and continue to the end of Lesson 9.
+    Lesson 10a
+        One sample t-tests (null and alternative hypotheses, t-statistics, p-values, and when to reject the null): Start at the beginning of Lesson 10a and continue until you reach the video "Rent - CI".
+        p-values: Start at the video "P-Value" and continue until you reach the video "Rent - t-Critical Values".
+        Confidence intervals for a one-sample t-test: Start at the video "Rent - CI" and continue until you reach the video "Dependent Samples".
+        Dependent samples t-tests: Start at the video "Dependent Samples" and continue to the end of Lesson 10a.
+    Lesson 10b
+        More t-test examples, Cohen's d, and r squared: Watch the entire lesson.
+    Lesson 11
+        Independent samples t-test: Start at the beginning of Lesson 11 and continue until you reach the video "Acne Medication".
+        More examples of independent samples t-tests: Start at the video "Acne Medication" and continue until you reach the video "Pooled Variance Sum of Squares".
+        Confidence intervals for an independent samples t-test: Start at the video "Shoes - 95% CI" and continue until you reach the video "Gender and Shoes".
+        r squared for independent samples t-tests: Watch the video "Gender and Shoes".
+        Pooled standard error: Start at the video "Pooled Variance Sum of Squares" and continue to the end of Lesson 11.

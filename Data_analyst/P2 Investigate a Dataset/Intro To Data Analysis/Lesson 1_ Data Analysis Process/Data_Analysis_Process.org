@@ -1,0 +1,94 @@
+* Data Analysis Process
+Refer to "L1_Starter_Code" for all the examples given in this lesson.
+
+** Problems Solved By data Analysis
+*** [[http://blog.okcupid.com/index.php/the-best-questions-for-first-dates/][OKCupid blog post on the best questions to ask on a first date]]
+*** [[https://www.dezyre.com/article/how-big-data-analysis-helped-increase-walmart-s-sales-turnover/109][How Walmart used data analysis to increase sales]]
+*** [[https://en.wikipedia.org/wiki/Bill_James][How Bill James applied data analysis to baseball]]
+*** [[http://www.numerate.com/numerates-ranking-technology-pharmaceutical-rd-gains-u-s-patent/][A pharmaceutical company uses data analysis to predict which chemical compounds are likely to make effective drugs]]
+** Data Analysis Process
+*** Questioning Phase
+**** Characteristic of data (student who pass the course)
+**** Things to be predicted
+*** Wrangling Phase
+**** Data Acquisition
+**** Data Cleaning
+*** Explore Phase
+**** Build Intuition
+**** Find Patterns
+*** Drawing Conclusion Phase (Prediction)
+**** Use Statistics and machine learning
+*** Communication Phase
+**** Blog Post
+**** Paper,email, power-point,conversation
+**** Data Visualization
+** Download Anaconda
+** Data Acquisition
+*** Downloading files
+*** Accessing API
+*** Scraping a webpage
+*** Combine data fron different formats
+** CSV Format
+*** comma separated values
+*** list of rows (with each row as list or dictionary)
+*** python-unicodecsv and csv modules
+def read_csv(filename):
+    with open(filename, 'rb') as f:
+        reader = unicodecsv.DictReader(f)
+        return list(reader)
+
+enrollments = read_csv('enrollments.csv')
+daily_engagement = read_csv('daily_engagement.csv')
+project_submissions = read_csv('project_submissions.csv')
+*** iterators in python
+**** For loops loop over iterables.
+**** iterables have __iter__ functions
+**** __iter__ functions return Iterators
+**** Iterators make use of the next method to move from element to element within their associated iterable
+**** once an iterator runs out of things to return from the next function it raises the StopIteration exception whenever next is called
+** Fixing Data type
+*** datetime.strptime(date,format),float(),  int() , 'True/False' =='True' , etc
+** Questioning about Student data
+*** how long to submit the project
+*** how do students who pass the project differ from who don't ?
+*** how much time students spend taking classes
+*** how time spent relates to the lesson/projects completed.
+*** how engagement changes over time
+*** how many times student submit before they pass
+** Investigating the data
+*** find the total number of rows in the csv and the number of unique student
+len(enrollments)
+
+unique_enrolled_students = set()
+for enrollment in enrollments:
+    unique_enrolled_students.add(enrollment['account_key'])
+len(unique_enrolled_students)
+*** Identify problems, surprising points in the data
+*** avg minutes spend and avg lessons completed in first week
+** Drawing Conclusion Phase
+*** Conclusion may be due to true difference or noise in the data
+*** Use Statistics to find out this
+** Correlation does not imply causation
+*** there might be a third factor causing both
+*** Run A/B Test to find out
+** Making Prediction
+*** Machine learning can make prediction automatically
+*** gives you the ranking of the features which are more important
+** Communication Phase
+*** which findings are most interesting ?
+*** How to report them ?
+** Visualizing Data
+*** Matplotlib, Seaborn to make plot nicer, hisograms
+*** Add title , axis labels bins etc.
+** Data Analysis and Related Terms
+*** Data Science
+**** more focused on building system. eg. moive recommendation etc (blogs are on data analysis)
+**** more experience
+*** Data Engineering
+**** More on data Wrangling
+**** Involves data storage and processing  (less on conclusion)
+*** Big Data
+**** Fuzzy term for " a lot" of data
+**** data scientists, analysts, engineers all work with big data.
+** Over
+*** Go for NumPy and Pandas.

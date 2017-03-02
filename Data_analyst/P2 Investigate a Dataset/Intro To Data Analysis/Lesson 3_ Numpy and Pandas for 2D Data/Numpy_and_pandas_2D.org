@@ -1,0 +1,35 @@
+* Numpy and pandas for 2D Data
+** Two dimensional data
+*** python :list of list
+*** numpy : 2D array
+*** pandas : Data frame
+*** 2D array vs array of array
+**** [[http://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html#internal-memory-layout-of-an-ndarray][more memory efficient]]
+**** accessing elements is different a[x,y] vs a[x][y].
+**** mean(), std() etc. will operate on entire array.
+** Numpy Axis
+*** axix = 0 : along the coloum, axis =1:along rows
+** Numpy and pandas datatype
+*** numpy : all elements have same datatype 
+*** panadas: different datatype for each coloum
+** Accessing elements of a dataframe
+*** df.loc['row_index'] : gives the corresponding row
+*** df.iloc['row_number] : gives the corresponding row
+*** df['column_index'] : gives the corresponding coloum
+*** df[column_number] : gives the corresponding column
+*** df.values() : make it a numpy 2D array
+** loading data into dataframe
+*** pd.read_csv()
+** Calculating Correlation (Pearson's R)
+*** Standardize each value
+*** Multiply each pair of value and take their average
+*** use x.std(ddof = 0) for calculating standard deviation
+** Functions on dataframe
+*** df.shift(periods,freq,axis)
+*** df,diff()
+*** df.applymap()
+*** df.apply() : takes a cloumn and return a column
+*** adding dataframe to a series
+** Pandas groupby
+** pandas merge
+*** a.merge(b,on=[],how='left' or 'inner' or 'right')

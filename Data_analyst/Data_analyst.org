@@ -1,0 +1,77 @@
+* [[https://classroom.udacity.com/nanodegrees/nd002/syllabus?activePartKey=0021345401][Data Analyst ]]
+
+** DONE Welcome to the Nanodegree
+CLOSED: [2016-05-28 Sat 10:02]
+get started with the Nanodegree program 
+
+*** DONE Welcome to the Data analyst Nanodegree (6 min)
+CLOSED: [2016-05-28 Sat 09:54]
+*** DONE Nanodegree orientation
+CLOSED: [2016-05-28 Sat 10:02]
+
+** DONE P0:Analyze Chopstick Length (20 Min.)
+CLOSED: [2016-05-28 Sat 10:34] SCHEDULED: <2016-06-03 Fri>
+download Anaconda and use IPython notebook to analyze a small dataset.
+
+2 Lessons, 1 Project
+
+*** DONE [[file:~/gitrepo/Udacity/Statistics/Statistics.org::*%5B%5Bhttps:/www.udacity.com/course/viewer?_ga=1.191678242.962750372.1457730976#!/c-ud134a-nd/l-4695398680/m-60358936%5D%5BLesson%201:%20Intro%20to%20Research%20Methods%5D%5D][Lesson 1: Intro to Research Methods]]
+CLOSED: [2016-05-28 Sat 10:03]
+*** DONE [[file:///home/bhupendra/gitrepo/Udacity/Data_analyst/P0%20Analyse%20Chopstick%20Length/Data_Analyst_ND_Project0.html][Project Preparation]]
+CLOSED: [2016-05-28 Sat 10:33]
+
+** TODO P1:Test a Perceptual Phenomenon (56.5)
+SCHEDULED: <2016-07-15 Fri>
+Use descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology.
+Give your readers a good intuition for the data and use statistical inference to draw a conclusion based on the results.
+Use the Statistics Placement Advisor to determine if reviewing any of the Statistics course will help you prepare for this project.
+
+33 Lessons, 1 Project
+
+*** Lessons : [[file:~/gitrepo/Udacity/Statistics/Statistics.org::%5BStatistics%5D][Statistics]]
+*** Project :
+
+** TODO P2:Investigate a Dataset (17.5 hours)
+SCHEDULED: <2016-08-19 Fri>
+4 Lessons, 1 Project
+
+*** DONE Intro to Data Analysis
+CLOSED: [2016-06-03 Fri 13:58]
+**** DONE Data Analysis Process (7 hours) [[file:P2%20Investigate%20a%20Dataset/Intro%20To%20Data%20Analysis/Lesson%201:%20Data%20Analysis%20Process/Data_Analysis_Process.org::*Data%20Analysis%20Process][link]]
+CLOSED: [2016-06-01 Wed 12:29]
+**** DONE NumPy and Pandas for 1D Data (5 hours) [[file:P2%20Investigate%20a%20Dataset/Intro%20To%20Data%20Analysis/Lesson%202:%20Numpy%20and%20Pandas%20for%201D%20Data/Numpy_and_pandas_1D.org::*Numpy%20and%20Pandas%20for%201D%20Data][link]]
+CLOSED: [2016-06-03 Fri 12:44]
+**** DONE NumPy and Pandas for 2D Data (5 hours) [[file:P2%20Investigate%20a%20Dataset/Intro%20To%20Data%20Analysis/Lesson%203:%20Numpy%20and%20Pandas%20for%202D%20Data/Numpy_and_pandas_2D.org::*Numpy%20and%20pandas%20for%202D%20Data][link]]
+CLOSED: [2016-06-03 Fri 12:46]
+*** Project Preparation
+
+** TODO P3:Wrangle OpenStreetMap Data (61.5 hours)
+SCHEDULED: <2016-10-14 Fri>
+19 Lessons, 1 Project
+*** Data Wrangling
+*** SQL For Data Analysis
+*** Project Preparation
+
+** TODO P4:Explore and Summarize data (24.5 hours)
+SCHEDULED: <2016-12-09 Fri>
+10 Lessons, 1 Project
+*** Data Analysis with R
+*** Project
+
+** TODO P5:Identify Fraud from Enron mail (65.5 hours)
+SCHEDULED: <2017-03-03 Fri>
+17 Lessons, 1 Project
+*** Intro to Machine Learning
+*** Project
+
+** TODO P6:Make Effective Data Visualization (46.5 hours)
+SCHEDULED: <2017-05-26 Fri>
+9 Lessons, 1 Project
+*** Data Visualization with D3.js
+*** Project
+
+** TODO P7:Design an A/B Test (1032 hours)
+SCHEDULED: <2017-07-08 Sat>
+7 Lessons, 1 Project
+
+

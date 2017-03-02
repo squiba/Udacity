@@ -1,0 +1,39 @@
+* Numpy and Pandas for 1D Data
+** Numpy array and python list
+| similarity                  | Differences                            |
+| Access elements by position | Each element should be of same type    |
+| Access a range of elements  | Convenient functions (mean,std) faster |
+| Use loops                   | can be multidimensional (list of list) |
+*** Vectorized operation
+| Add          | +  | And | & | Greater   | >  |
+| Subtract     | -  | OR  |   | Less      | <  |
+| Multiply     | *  | Not | ~ | Equal     | == |
+| Divide       | /  |     |   | Not equal | != |
+| Exponentiate | ** |     |   |           |    |
+*** Multiply by scalar
+** Standardizing Data
+*** (array - np.mean(array))/np.std(array)
+** Numpy Index array
+*** a[b] where b is a boolean array a[a>2]
+only True elements will be kept
+** + vs +=
+*** a=a+1 makes a new array : Not-In place
+*** a+=1 does not make a new array : In-Place
+a=np.array([0,2,5,5,8])
+slice= a([:3])
+slice[0]=100
+print a
+[100,2,5,5,8]
+** Pandas Series
+| Accessing elements   |
+| looping              |
+| convenient functions |
+| vectorized operation |
+| implemented in C     |
+|                      |
+*** s.describe(), s.sum(),s.mean() etc
+*** Series index (list as wll as dictionary)
+if we add two series :in not matching indexes NaN will be Filled
+s.dropana() to drop the missing values
+a.add(b,fill_values = 0) to avoid Nan and fill both a and b with 0 for other indexes then add them
+s.apply(def) def will be applied on each element of series

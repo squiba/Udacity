@@ -1,0 +1,31 @@
+* TODO [[https://classroom.udacity.com/courses/ud1007/lessons/491558559/concepts/8165990800923][Data Wrangling]]
+
+** Lesson 1: Data Extraction Fundamentals
+** Lesson 2: Data in More Complex Formats
+*** Intro to XML [[https://www.w3.org/TR/xml/#sec-origin-goals][origin-goals]]
+**** Data Transfer
+**** Easy to write Code, TO read/Write
+**** Document Validation
+**** Human Readable
+**** Support a wide variety of app
+**** Robust Parsers in most language
+*** Resources
+**** [[http://www.w3schools.com/xml/xml_whatis.asp][w3schools]]
+**** [[http://www.tizag.com/xmlTutorial/index.php][tizag.com]]
+*** 
+** Lesson 3: Data Quality
+*** Measures of data quality
+**** validity: Conforms to a schema
+**** Accuracy: Conforms to a gold standard
+**** Completeness: All record ?
+**** Consistency : Match other data
+**** Uniformity: Same units
+*** Blueprint for cleaning
+**** Audit your data
+**** Create a data cleaning plan
+***** identify causes
+***** define operations : to clean the data
+***** test
+**** Execute the plan
+**** Manually Correct
+*** 

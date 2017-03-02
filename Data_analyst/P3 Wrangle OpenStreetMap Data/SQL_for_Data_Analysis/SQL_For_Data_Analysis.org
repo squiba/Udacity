@@ -1,0 +1,43 @@
+* TODO [[https://classroom.udacity.com/courses/ud198/lessons/5391955257/concepts/77032743580923][SQL for Data Analysis]]
+SCHEDULED: <2016-05-30 Mon>
+
+** DONE Lesson 1: Data and Tables
+CLOSED: [2016-05-29 Sun 11:13]
+*** Hidden phase 1 of 3
+SELECT sql, statement FROM Udacious WHERE queryId = 35;
+
+** DONE Lesson 2: Elements of SQL
+CLOSED: [2016-05-30 Mon 12:54]
+*** [[file:Data_types::Here's%20just%20a%20sampling%20of%20the%20many%20data%20types%20that%20SQL%20supports.%20We%20won't%20be%20using%20most%20of%20these%20types%20in%20this%20course,%20though.][General Data types in SQL]]
+*** [[file:Zootablesdescription::All%20the%20tables%20in%20the%20zoo%20database][Zoo tables description]]
+*** [[file:SQL_Clauses::group%20by][Some SQl Clauses]]
+*** Database
+sqlite (sqlite3)
+mysql
+mongodb etc
+
+*** Hidden Phase 2 of 3
+1Q 2U 3E 4R 5I 6E 7S 8R 9F 10U 11N
+HIDDEN PHRASE 2 of 3: 
+
+Table Name:
+Udacious 
+
+Columns:
+problemSet INTEGER, node INTEGER,  queryId INTEGER, title TEXT,
+sql TEXT, statement TEXT" 
+** Lesson 3: Deep into SQL
+*** [[file:Normalizing_tables::The%20example%20to%20keep%20in%20mind%20here%20is%20the%20diet%20table%20from%20the%20zoo%20database.%20Instead%20of%20trying%20to%20stuff%20multiple%20foods%20for%20a%20species%20into%20a%20single%20row%20about%20that%20species,%20we%20separate%20them%20out.%20This%20makes%20it%20much%20easier%20to%20do%20aggregations%20and%20comparisons.][Rules for Normalizing Tables]]
+*** Query
+Create
+Insert, count,sum, avg
+join, left join, right join
+subquery
+*** Python DB-API
+| Database | API for Python |
+|----------+----------------|
+| Sqlite   | sqlite3        |
+| Oracle   | cx_oracle      |
+| MongoDB  | Pymongo        |
+*** Hidden phase 3 of 3
+1U 2D 3A 4C 5I

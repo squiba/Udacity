@@ -1,0 +1,4 @@
+* Intro to machine learning
+** Naive Bayes
+*** Extract features and labels
+*** 

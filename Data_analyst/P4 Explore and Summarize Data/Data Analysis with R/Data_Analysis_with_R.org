@@ -1,0 +1,18 @@
+* TODO Data analysis with R
+** What is EDA
+*** Exploratory Data Analysis
+*** Websites for data
+**** [[https://www.data.gov/][data.gov]]
+**** [[www.facebook.com][facebook]]
+*** Explore google trends [[https://www.google.com/trends/][google trends]]
+*** Data visualization using [[https://d3js.org/][D3.js]]
+*** [[https://www.facebook.com/notes/facebook-data-science/coordinated-migration/10151930946453859][Coordinate migration]]
+** Data analysis with R
+*** [[http://blog.yhat.com/posts/roc-curves.html][Sensitivity and Specificity and ROC Curves for Binary Classifiers]]
+*** R packages
+**** textplot
+**** ggplot2
+install.packages('ggplot2', dependencies = TRUE)
+library(ggplot2)
+install.packages('RColorBrewer', dependencies = TRUE)
+library(RColorBrewer)

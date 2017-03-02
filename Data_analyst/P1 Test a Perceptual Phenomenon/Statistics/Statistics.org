@@ -1,0 +1,93 @@
+* [[https://www.udacity.com/course/viewer?_ga=1.146574908.962750372.1457730976#!/c-ud134-nd/l-4446458586/m-4332008402][Statistics]]
+
+[[file:Content::Concepts][Content]]
+
+** DONE Lesson 1: Intro to Research Methods
+CLOSED: [2016-05-27 Fri 21:22]
+
+*** BBC: bbcfacememorytest
+*** Constructs : define and measure construct
+*** Simple Averages
+population Average: mu
+sample Average : xbar
+sampling error = mu - xbar
+*** Randomness
+logic of chance by John Venn in 1888 (meaning of random)
+*** Visualize relationship
+Scatter plot : individual points
+*** Golden Arches Theory of Conflict Prevention
+ Correlation does not imply Causation.
+*** Causal Inference
+Survey and Experiments
+Blind an Double Blind research
+*** Random Assignment
+with larger groups
+[[http://ww2.kqed.org/mindshift/2013/01/11/why-sleeping-may-be-more-important-than-studying/][Sleeping may be more important than studing]]
+*** [[https://docs.google.com/spreadsheets/d/1nXKXeTezBbIKUlckP7Ct5pdUlZ205xTMHF5Jt6rIN_g/edit#gid=0][Height and hand length data]]
+
+*** DONE PS1a
+CLOSED: [2016-05-28 Sat 13:38]
+*** DONE PS1b
+CLOSED: [2016-05-28 Sat 13:38]
+
+** TODO Lesson 2: Visualizing Data
+** DONE Lesson 3: Central Tendency
+CLOSED: [2016-06-06 Mon 10:27]
+*** Mode, Median, Mean
+*** More than one Mode ?
+*** [[docview:MeasuresofCenter.pdf::1][measures od center]]
+** DONE Lesson 4: Variability
+CLOSED: [2016-06-06 Mon 13:19]
+*** Cut of the first and third quartile ( 25%)
+**** find the median of the first half (Q1) and the second half(Q3)
+**** Interquartile Range (IQR) = Q3 - Q1
+*** Q3 + 1.5*IQR < Outlier < Q1 - 1.5*IQR
+*** Boxplots
+*** Variance:  Average Squared Deviation , Average absolute Deviation
+*** Standard Deviation : sqrt(variance)
+*** Bessel's Correction : Squared deviation divide by (n-1) instead of n for calculating sample sd.
+** DONE Lesson 5: Standardizing
+CLOSED: [2016-06-06 Mon 16:52]
+*** Z-score : (x-mu)/sigma
+*** for new distribution mean = 0, sd = 1
+*** Standard Normal Distribution
+** DONE Lesson 6: Normal Distribution
+CLOSED: [2016-06-06 Mon 16:41]
+*** PDF: Probability Density Function
+Area Under the Standard Distribution gives the probability
+*** Z-table
+** DONE Lesson 7: Sampling Distribution
+CLOSED: [2016-06-06 Mon 16:41]
+*** Compare Sample Means
+*** [[http://www.wolframalpha.com][wolframalpha]] :  cool site see the distribution from datapoints
+*** Central Limit Theorem (for sample distribution of means )
+**** Mean of sample = Mean of population
+**** sd of population(mu) / sd od sample(SE) = sqrt(sample size)
+**** SE is also called Standard Error.
+*** [[http://onlinestatbook.com/stat_sim/sampling_dist/index.html][sampling distribution applet]]
+*** [[https://klout.com/corp/score][Klout Score: Measure for influence]]
+** DONE Lesson 8: Estimation
+CLOSED: [2016-06-06 Mon 20:32]
+*** Mean of treated population
+**** point estimator : mean of the sample with our assumption
+*** margin of error = 2*(sigma)/sqrt(n) exactly : 1.96 in place of 3
+*** Interval Estimate of the population: xbar@margin of error
+(95% confidence interval for the mean)
+*** 98% CI ( Confidence Interval ) (z=2.33)
+*** Y% of CI : xbar @ z*SE 
+xbar: point estimator
+SE: Standard Error(sigma/sqrt(n))
+z= number of standard deviation away from the mean
+z*SE = margin of error
+** TODO Lesson 9: Hypothesis Testing
+*** Levels of likelihood (Alpha Levels)
+if the probability is less than
+**** 0.05(5%)
+**** 0.01(1%)
+**** 0.001(0.1%)
+*** Z-critical value and critical region (corresponding to an alpha)
+*** 
+** TODO Lesson 10a: t-Tests, Part 1
+** TODO Lesson 10b: t-Tests, Part 2
+** TODO Lesson 11: t-Tests, Part 3
+
